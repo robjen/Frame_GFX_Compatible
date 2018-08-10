@@ -25,4 +25,18 @@ some more projects I'm working on will include
 3. more Nixie tubes maybe even a mega sized array?
 
 
-in process of tidying up the code and sorting out a few Arduino issues then I'll be uploading the source
+Options for the frame buffer inculde:
+Width
+Height
+Window Width   (viewable window allows fast pan/scan/scroll) 
+Window Height
+Bit depth      (anthing from single bit to 16 bit for colours)
+Row ordered
+Col ordered
+LSB endian
+MSB endian
+
+for some tagets I've written some optimised functions for drawing, and split area select to allow mixed scrolling
+Best of all I can now start making my application code more generic and common between the device I design and so reduce my design cycle time (I need to get round to upload some of these projects)
+
+I'm in process of tidying up the code and sorting out a few Arduino issues then I'll be uploading the source
