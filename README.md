@@ -28,11 +28,12 @@ some more projects I'm working on will include
 Options for the frame buffer include:
 - Width
 - Height
-- Window Width   (view able window allows fast pan/scan/scroll) 
+- Window Width   (viewable window allows pan/scan/scroll of a larger canvas) 
 - Window Height
-- Bit depth      (anything from single bit to 16 bit for colours)
+- Bit depth      (anything from 1 bit to 16 bit for colours)
 - Row ordered
 - Col ordered
+- Snake ordered
 - LSB endian
 - MSB endian
 
